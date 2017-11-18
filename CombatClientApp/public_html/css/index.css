@@ -1,0 +1,17 @@
+*{
+    font-family: "Arial";
+    font-size:12px;
+}
+h2{
+    font-size:16px;
+}
+table tr td{
+    padding:10px;
+    border:1px solid #ddd;
+}
+table tr.round-title td{
+    background:#aaa;
+}
+table tr.title td{
+    background:#ddd;
+}

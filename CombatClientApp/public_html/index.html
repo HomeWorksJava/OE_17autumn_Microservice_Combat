@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Combat App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="css/index.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>        
+
+        <label for="protagonist">A hős: </label>
+        <select name="protagonist" id="heroId">
+            <option value="1">Az ütőember!</option>
+            <option value="2">Pepsiman</option>
+            <option value="3">Suppamann</option>
+            <option value="5">Batgrill</option>
+        </select>
+
+        <br/>
+        <br/>
+
+        <label for="location">Hol harcolnak? </label>
+        <select name="location" id="locationId">
+            <option value="1">New York</option>
+            <option value="2">Switzerland</option>
+            <option value="3">Deutschland</option>
+        </select>
+
+        <br/>
+        <input type="button" value="FIGHT"  id="fightBtn" />
+
+        <br/>
+        <hr/>
+        <br/>
+
+        <h2>The winner is:</h2>
+        <div>
+            <p id="winnerName"></p>
+            <p id="winnerDesc"></p>
+        </div>
+
+        <h2>Hero deaths:</h2>
+        <div>
+            <p id="heroDeaths"></p>
+        </div>
+
+        <h2>Results:</h2>
+        <p>Location: <span id="location"></span></p>
+        <div id="conbatResultTable"></div> 
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
