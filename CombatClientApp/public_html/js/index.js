@@ -118,7 +118,7 @@
         var oReq = new XMLHttpRequest();
         oReq.responseType = "json";
         oReq.addEventListener("load", loadData);
-        oReq.open("GET", "http://localhost:8080/myapp/combat/" + heroId + "/" + locationId);
+        oReq.open("GET", "http://212.237.28.207:8080/myapp/combat/" + heroId + "/" + locationId);
         oReq.send();
         oReq.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
